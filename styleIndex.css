@@ -1,0 +1,55 @@
+body{
+    background-color: #4444CA;
+}
+
+.titulo{
+    margin-left: 500px;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 100px;
+    
+}
+
+.tituloText{
+    padding-top: 25px;
+    padding-left: 20px;
+    font-size: 40px;
+    align-content: center;
+}
+
+.cuerpoPagina{
+    width: 1200px;
+    height: 1000px;
+    background-color: #1919A4;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#contenedorDestacados{
+    /*los margin tienen el efecto contrario con el elemento display*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 70vh;
+    background: #1919A4;
+    /*Con align-content puedes cambiar la posicion en y de los elementos
+    con flex-star puedes posicionar los elementos siempre al principio 
+    dando un buen efecto(probar con flex-end,center)*/
+    align-content:flex-start;
+}
+
+.contenedorDestacados-item{
+    background-color: #248;
+    color: #fff;
+    margin: 5px;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    height: 100px;
+}
+
+#destacadoText{
+    padding-top: 50px;
+    padding-left: 450px;
+    padding-bottom: 20px;
+}
